@@ -13,7 +13,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/activity_main_usuario" />
+        android:text="@string/activity_main_usuario"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -28,7 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/activity_main_senha" />
+        android:text="@string/activity_main_senha"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -43,20 +45,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Button" />
+        android:text="@string/activity_main_entrar" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/activity_main_esqueci" />
+        android:text="@string/activity_main_esqueci"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/activity_main_cadastrar" />
+        android:text="@string/activity_main_cadastrar"
+        android:textSize="16sp" />
 
 </LinearLayout>
