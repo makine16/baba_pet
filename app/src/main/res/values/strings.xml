@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">login_babapet</string>
+    <string name="activity_main_usuario">Usuário</string>
+    <string name="activity_main_senha">Senha</string>
+    <string name="activity_main_esqueci">Esqueci a senha</string>
+    <string name="activity_main_cadastrar">Cadastrar</string>
+</resources>
