@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/activity_main_nome"
+        android:text="@string/activity_main_usuario"
         android:textSize="14sp" />
 
     <EditText

@@ -5,6 +5,6 @@
     <string name="activity_main_esqueci">Esqueci a senha</string>
     <string name="activity_main_cadastrar">Cadastrar</string>
     <string name="activity_main_entrar">Entrar</string>
-    <string name="activity_main_nome">Nome</string>
     <string name="activity_main_email">Email</string>
+    <string name="activity_main_falha_autenticao">Falha na Autenticação</string>
 </resources>
