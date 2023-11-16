@@ -56,11 +56,11 @@
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewCadastrese"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/activity_main_cadastrar"
+        android:text="@string/activity_main_cadastrese"
         android:textSize="16sp" />
 
 </LinearLayout>

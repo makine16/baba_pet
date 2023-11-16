@@ -3,8 +3,22 @@
     <string name="activity_main_usuario">Usuário</string>
     <string name="activity_main_senha">Senha</string>
     <string name="activity_main_esqueci">Esqueci a senha</string>
-    <string name="activity_main_cadastrar">Cadastrar</string>
+    <string name="activity_main_cadastrese">Cadastre-se</string>
     <string name="activity_main_entrar">Entrar</string>
-    <string name="activity_main_email">Email</string>
     <string name="activity_main_falha_autenticao">Falha na Autenticação</string>
+
+    <string name="activity_main_email">Email</string>
+    <string name="activity_cadastro_cidade">Cidade</string>
+    <string-array name="activity_cadastro_cidade_itens">
+        <item>Manaus</item>
+        <item>Manacapuru</item>
+        <item>Iranduba</item>
+    </string-array>
+    <string name="activity_cadastro_porte">Porte do pet</string>
+    <string-array name="activity_cadastro_porte_itens">
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Grande</item>
+    </string-array>
+    <string name="activity_cadastro_cadastrar">Cadastrar</string>
 </resources>

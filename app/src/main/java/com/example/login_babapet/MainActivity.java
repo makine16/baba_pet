@@ -7,9 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    TextView cadastrese;
 
     EditText usuario;
 
@@ -25,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
         usuario = (EditText) findViewById(R.id.editTextUsuario);
         senha = (EditText) findViewById(R.id.editTextSenha);
         entrar = (Button) findViewById(R.id.buttonEntrar);
+        cadastrese = (TextView) findViewById(R.id.textViewCadastrese);
+
+        cadastrese.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,tela_cadastro.class));
+            }
+        });
 
         entrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 if ("admin".equals(usuario.getText().toString()) &&"1234".equals(senha.getText().toString()))
                 {
 
-                    startActivity(new Intent(MainActivity.this,));
+                    startActivity(new Intent(MainActivity.this,tela_cadastro.class));
 
                 }else{
                     Toast falhaAutenticacao = Toast.makeText(MainActivity.this,getResources().getString(R.string.activity_main_falha_autenticao),Toast.LENGTH_SHORT);
